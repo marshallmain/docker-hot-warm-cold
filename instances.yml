@@ -1,0 +1,21 @@
+instances:
+  - name: elasticsearch-hot
+    dns:
+      - elasticsearch-hot
+      - localhost
+    ip:
+      - 127.0.0.1
+
+  - name: elasticsearch-warm
+    dns:
+      - elasticsearch-warm
+      - localhost
+    ip:
+      - 127.0.0.1
+
+  - name: elasticsearch-cold
+    dns:
+      - elasticsearch-cold
+      - localhost
+    ip:
+      - 127.0.0.1

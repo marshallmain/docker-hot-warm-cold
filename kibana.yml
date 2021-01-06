@@ -1,3 +1,9 @@
 server.host: 0.0.0.0
 #needed for 7.0+
-elasticsearch.hosts: http://elasticsearch-hot:9200
+elasticsearch.hosts: https://elasticsearch-hot:9200
+elasticsearch.username: elastic
+elasticsearch.password: changeme
+elasticsearch.ssl.certificateAuthorities: /usr/share/elasticsearch/config/certificates/ca/ca.pem
+elasticsearch.ssl.alwaysPresentCertificate: true
+xpack.encryptedSavedObjects:
+  encryptionKey: "min-32-byte-long-strong-encryption-key"

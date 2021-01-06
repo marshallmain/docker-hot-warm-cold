@@ -5,5 +5,7 @@ xpack.license.self_generated.type: trial
 discovery.seed_hosts: ['hot','warm', 'cold']
 cluster.initial_master_nodes: ['hot']
 http.port: 9201
-xpack.security.enabled: false
+xpack.security.enabled: true
 node.roles: [ master, data_warm, data_content]
+xpack.security.http.ssl.enabled: true
+xpack.security.authc.api_key.enabled: true
